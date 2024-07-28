@@ -3,15 +3,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>ShaareyTzedek</title>
   </head>
   <body>
-    <header>
-      <h1>TEST</h1>
-    </header>
+    <header></header>
+    <div class="wrapper">
+      <h1 class="block__naming">НАШИ ПРОЕКТЫ</h1>
+      <p class="block_description">Здоровая община начинается со здоровых людей — тело, ум и душа. Получая поддержку через сеть оздоровительных и досуговых общинных программ, которые предлагает «Шаарей Цедек», еврейские семьи и пожилые люди начинают жить здоровой, полноценной жизнью. Особенно надо отметить такие программы как «Обеды на колёсах», «Скорая помощь», «Патронаж», «Цдака.ру» и другие. Многолетний опыт деятельности в области благотворительности позволил нашему фонду найти новые формы работы, благодаря которым выявлен новый потенциал этих программ. В нашей работе мы руководствуемся принципами индивидуального подхода при оказании помощи. Взаимодействие наших благотворительных программ обеспечивает полноценное питание, физический тонус, творческое выражение, и интеллектуальное развитие каждого клиента, пришедшего в центр.</p>
+      <div class="block__subnaming">
+        <div class="line"></div>
+        <p class="subnaming">Благотворительность</p>
+        <div class="line"></div>
+      </div>
+      <div class="block__slider">
+        <div class="swiper swiper-test">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+      <script src="./js/dev_swiper.js" type="module"></script>
+    </div>
+    <footer></footer>
   </body>
 </html>
-<div class="wrapper"></div>
-<footer></footer>
