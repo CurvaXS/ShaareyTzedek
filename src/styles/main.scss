@@ -86,9 +86,10 @@ footer {
 
 .block__banner {
     width: 100%;
-    background: url('../img/header__bg-sm.png') no-repeat center;
+    background: url('../img/header__bg-l.png') no-repeat center;
     background-size: cover;
     position: relative;
+    margin-bottom: 80px;
 
     .banner__wrapper {
         padding: 345px 0 80px 185px;
@@ -295,6 +296,7 @@ footer {
 
     .block__news {
         margin-top: 80px;
+        margin-bottom: 80px;
 
         .news-wrapper {
             width: 100%;
@@ -365,6 +367,19 @@ footer {
             }
         }
     }
+
+    .block__partners{
+        .partners__wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+
+            img{
+                margin-top: 4em;
+            }
+        }
+    }
 }
 
 .blur__background {
@@ -389,9 +404,10 @@ footer {
 
     font-family: Montserrat;
     font-size: 24px;
+    line-height: 29px;
     font-weight: 400;
 
-    padding: 0 60px;
+    // padding: 0 60px;
 }
 
 .btn-blue {
@@ -414,15 +430,6 @@ footer {
     margin: 115px auto 52px;
 }
 
-#btn-wh {
-    width: 550px;
-    margin-right: 40px;
-}
-
-#btn-pr {
-    width: 500px;
-}
-
 #btn-news {
     font-size: 20px;
     width: 227px;
@@ -434,13 +441,17 @@ footer {
     max-width: 300px;
 }
 
-#btn-banner {
-    max-width: 470px;
+#btn-banner,
+#btn-wh,
+#btn-pr {
+    width: 500px;
+}
+#btn-wh {
+    margin-right: 40px;
 }
 #btn-banner:nth-child(2) {
     margin-left: 25px;
 }
-
 #banner-btns {
     margin-top: 88px;
 }
@@ -512,7 +523,7 @@ footer {
                     left: -51%;
                     width: 50%;
                     height: 100%;
-                    background-color: #ff0000;
+                    background-color: #ffffff;
                     z-index: 2;
                 }
     
@@ -554,6 +565,10 @@ footer {
 
                             .item__text {
                                 align-items: center;
+
+                                p.date{
+                                    margin-bottom: 8px;
+                                }
                             }
                         }
                     }
@@ -690,7 +705,7 @@ footer {
         }
 
         p.block_description {
-            text-align: justify;
+            // text-align: justify;
             font-size: 19px;
         }
 
